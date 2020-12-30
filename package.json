@@ -1,0 +1,25 @@
+{
+    "name": "usd2ars",
+    "description": "A pwa that shows the value of the dollar for Argentines.",
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "generate": "nuxt generate",
+        "start": "nuxt start"
+    },
+    "author": "Lautaro Pereyra <dev.lautaropereyra@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "@nuxtjs/axios": "^5.12.4",
+        "@primer/octicons": "^11.2.0",
+        "nuxt": "^2.14.12"
+    },
+    "devDependencies": {
+        "@nuxtjs/pwa": "^3.3.3",
+        "@nuxtjs/tailwindcss": "^3.4.2",
+        "@tailwindcss/postcss7-compat": "^2.0.2",
+        "autoprefixer": "^9.8.6",
+        "postcss": "^7.0.35",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+    }
+}
