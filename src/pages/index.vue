@@ -40,7 +40,7 @@
                         <span class="text-2xl">$ {{ casa.venta }}</span>
                     </div>
                 </div>
-                <div v-if="value" class="p-4 w-full bg-green-500 text-center text-lg">
+                <div v-if="value" class="p-4 w-full bg-green-500 text-center text-lg text-white">
                     $ {{ conversorMode ? convertToDollar(casa.venta) : convertToPeso(casa.compra) }}
                 </div>
             </div>
@@ -72,8 +72,8 @@ export default {
             return parseFloat( this.value * parseFloat(value) ).toFixed(2)
         }
     },
-    fetch(){
-        this.fetchData()
+    async fetch(){
+        await this.fetchData()
     }
 }
 </script>
