@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/", (function(a,b){return {data:[{}],fetch:[{data:[{casa:{compra:"83,700",venta:"89,700",agencia:"349",nombre:"Dolar Oficial",variacion:"0,520",ventaCero:a,decimales:b}},{casa:{compra:"159,000",venta:"165,000",agencia:"310",nombre:"Dolar Blue",variacion:"0,610",ventaCero:a,decimales:b}}],conversorMode:true,value:0}],mutations:void 0}}("TRUE","3")));
