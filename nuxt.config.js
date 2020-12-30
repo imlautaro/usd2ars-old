@@ -11,12 +11,6 @@ export default {
             theme_color: '#10B981'
         }
     },
-    router: {
-        base: '/usd2ars/'
-    },
-    generate: {
-        dir: 'docs'
-    },
     plugins: [
         '~/plugins/octicons'
     ],
