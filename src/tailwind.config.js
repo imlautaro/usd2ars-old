@@ -10,14 +10,8 @@ module.exports = {
 	],
 	darkMode: 'media', // or 'media' or 'class'
 	theme: {
-		colors: {
-			gray: colors.gray,
-			white: colors.white,
-			black: colors.black,
-			green: colors.emerald,
-			red: colors.red,
-			transparent: 'transparent',
-			yellow: colors.amber
+		fontFamily: {
+			sans: ['Roboto', 'sans-serif'],
 		},
 		extend: {},
 	},
